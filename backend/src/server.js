@@ -35,7 +35,7 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
-// connect to Database before st
+// connect to Database before starting t
 connectDB().then(() => {
   app.listen(PORT, () => {
     console.log("Server is running on port:", PORT);
